@@ -67,6 +67,10 @@ nav a {
     margin-top: 05px;
     margin-bottom: 20px;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .about {
     margin-top: 130px;
     padding: 130px;
@@ -84,4 +88,11 @@ nav a {
     color: var#757575;
     text-align: center;
     font-size: 18px;
+}
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align: center;
 }
